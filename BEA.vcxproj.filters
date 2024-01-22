@@ -1,132 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="_\_\Video.hpp" />
-    <ClInclude Include="_\_\Debug.hpp" />
-    <ClInclude Include="_\_\Engine.hpp" />
-    <ClInclude Include="_\_\Time.hpp" />
-    <ClInclude Include="_\_\Input.hpp" />
-    <ClInclude Include="_\_\Input\Keyboard.hpp">
+    <ClInclude Include="_Input\_\Video.hpp" />
+    <ClInclude Include="_Input\_\Debug.hpp" />
+    <ClInclude Include="_Input\_\Engine.hpp" />
+    <ClInclude Include="_Input\_\Time.hpp" />
+    <ClInclude Include="_Input\_\Input.hpp" />
+    <ClInclude Include="_Input\_\Input\Keyboard.hpp">
       <Filter>Input</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse.hpp">
       <Filter>Input</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse\Button.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse\Button.hpp">
       <Filter>Input\Mouse</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse\Wheel.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse\Wheel.hpp">
       <Filter>Input\Mouse</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse\Cursor.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse\Cursor.hpp">
       <Filter>Input\Mouse</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse\Cursor\X.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse\Cursor\X.hpp">
       <Filter>Input\Mouse\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Input\Mouse\Cursor\Y.hpp">
+    <ClInclude Include="_Input\_\Input\Mouse\Cursor\Y.hpp">
       <Filter>Input\Mouse\Cursor</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Video\ShaderProgram.hpp">
+    <ClInclude Include="_Input\_\Video\ShaderProgram.hpp">
       <Filter>Video</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Video\Polygon.hpp">
+    <ClInclude Include="_Input\_\Video\Polygon.hpp">
       <Filter>Video</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Video\VAO.hpp">
+    <ClInclude Include="_Input\_\Video\VAO.hpp">
       <Filter>Video</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Video\VAO\EBO.hpp">
+    <ClInclude Include="_Input\_\Video\VAO\EBO.hpp">
       <Filter>Video\VAO</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Video\VAO\VBO.hpp">
+    <ClInclude Include="_Input\_\Video\VAO\VBO.hpp">
       <Filter>Video\VAO</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game.hpp" />
-    <ClInclude Include="_\_\Game\Actor.hpp">
+    <ClInclude Include="_Input\_\Game.hpp" />
+    <ClInclude Include="_Input\_\Game\Actor.hpp">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Component.hpp">
+    <ClInclude Include="_Input\_\Game\Component.hpp">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Component\Polygon.hpp">
+    <ClInclude Include="_Input\_\Game\Component\Polygon.hpp">
       <Filter>Game\Component</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Actor\Side.hpp">
+    <ClInclude Include="_Input\_\Game\Actor\Side.hpp">
       <Filter>Game\Actor</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Actor\Separator.hpp">
+    <ClInclude Include="_Input\_\Game\Actor\Separator.hpp">
       <Filter>Game\Actor</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Actor\Player.hpp">
+    <ClInclude Include="_Input\_\Game\Actor\Player.hpp">
       <Filter>Game\Actor</Filter>
     </ClInclude>
-    <ClInclude Include="_\_\Game\Actor\Ball.hpp">
+    <ClInclude Include="_Input\_\Game\Actor\Ball.hpp">
       <Filter>Game\Actor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_\_\Video.cpp" />
-    <ClCompile Include="_\_\Debug.cpp" />
-    <ClCompile Include="_\_\Engine.cpp" />
-    <ClCompile Include="_\_\Time.cpp" />
-    <ClCompile Include="_\_\Input.cpp" />
-    <ClCompile Include="_\_\Input\Keyboard.cpp">
+    <ClCompile Include="_Input\_\Video.cpp" />
+    <ClCompile Include="_Input\_\Debug.cpp" />
+    <ClCompile Include="_Input\_\Engine.cpp" />
+    <ClCompile Include="_Input\_\Time.cpp" />
+    <ClCompile Include="_Input\_\Input.cpp" />
+    <ClCompile Include="_Input\_\Input\Keyboard.cpp">
       <Filter>Input</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse.cpp">
       <Filter>Input</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse\Button.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse\Button.cpp">
       <Filter>Input\Mouse</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse\Wheel.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse\Wheel.cpp">
       <Filter>Input\Mouse</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse\Cursor.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse\Cursor.cpp">
       <Filter>Input\Mouse</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse\Cursor\X.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse\Cursor\X.cpp">
       <Filter>Input\Mouse\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Input\Mouse\Cursor\Y.cpp">
+    <ClCompile Include="_Input\_\Input\Mouse\Cursor\Y.cpp">
       <Filter>Input\Mouse\Cursor</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Video\ShaderProgram.cpp">
+    <ClCompile Include="_Input\_\Video\ShaderProgram.cpp">
       <Filter>Video</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Video\Polygon.cpp">
+    <ClCompile Include="_Input\_\Video\Polygon.cpp">
       <Filter>Video</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Video\VAO.cpp">
+    <ClCompile Include="_Input\_\Video\VAO.cpp">
       <Filter>Video</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Video\VAO\EBO.cpp">
+    <ClCompile Include="_Input\_\Video\VAO\EBO.cpp">
       <Filter>Video\VAO</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Video\VAO\VBO.cpp">
+    <ClCompile Include="_Input\_\Video\VAO\VBO.cpp">
       <Filter>Video\VAO</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game.cpp" />
-    <ClCompile Include="_\_\Game\Actor.cpp">
+    <ClCompile Include="_Input\_\Game.cpp" />
+    <ClCompile Include="_Input\_\Game\Actor.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Component.cpp">
+    <ClCompile Include="_Input\_\Game\Component.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Component\Polygon.cpp">
+    <ClCompile Include="_Input\_\Game\Component\Polygon.cpp">
       <Filter>Game\Component</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Actor\Side.cpp">
+    <ClCompile Include="_Input\_\Game\Actor\Side.cpp">
       <Filter>Game\Actor</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Actor\Separator.cpp">
+    <ClCompile Include="_Input\_\Game\Actor\Separator.cpp">
       <Filter>Game\Actor</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Actor\Player.cpp">
+    <ClCompile Include="_Input\_\Game\Actor\Player.cpp">
       <Filter>Game\Actor</Filter>
     </ClCompile>
-    <ClCompile Include="_\_\Game\Actor\Ball.cpp">
+    <ClCompile Include="_Input\_\Game\Actor\Ball.cpp">
       <Filter>Game\Actor</Filter>
     </ClCompile>
   </ItemGroup>
